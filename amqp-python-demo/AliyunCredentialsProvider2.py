@@ -9,7 +9,7 @@ import pika
 
 class AliyunCredentialsProvider:
     """
-    根据阿里云的 accessKey,accessSecret,UID算出amqp连接使用的username和password
+    Python2.7适用，根据阿里云的 accessKey,accessSecret,UID算出amqp连接使用的username和password
     UID是资源ownerID，一般是接入点第一段
     """
     ACCESS_FROM_USER = 0
