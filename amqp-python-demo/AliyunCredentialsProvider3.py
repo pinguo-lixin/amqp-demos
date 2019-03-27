@@ -6,7 +6,7 @@ from datetime import datetime
 
 class AliyunCredentialsProvider:
     """
-    Python3.6适用，根据阿里云的 accessKey,accessSecret,UID算出amqp连接使用的username和password
+    Python3.6+适用，根据阿里云的 accessKey,accessSecret,UID算出amqp连接使用的username和password
     UID是资源ownerID，一般是接入点第一段
     """
 
